@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Turma</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Turma</h1>
+        <form action="/cadastrar" method="post">
+            <div class="form-group">
+                <label for="nome">Série</label>
+                <input type="text" id="série" name="série" placeholder="Digite a série" required>
+            </div>
+            <div class="form-group">
+                <label for="Categoria">Categoria</label>
+                <input type="text" id="Categoria" name="Categoria" placeholder="Digite a Categoria" required>
+            
+            <button style="margin-top: 10px;" type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

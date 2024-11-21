@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagens</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contagem</h1>
+        <form action="/cadastrar" method="post">
+            <div class="form-group">
+                <label for="data">Data da contagem:</label>
+                <input type="date" id="data" name="data" placeholder="Digite a data" required>
+            </div>
+            <div class="form-group">
+                <label for="horario">Horario</label>
+                <input type="time" id="hora" name="hora" placeholder="Digite o horario" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Turma</label>
+                <input type="number" id="turma" name="turma" placeholder="Digite a turma" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Quantidade</label>
+                <input type="number" id="Quantidade" name="Quantidade" placeholder="Quantidade de alunos" required>
+            </div>
+           
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
