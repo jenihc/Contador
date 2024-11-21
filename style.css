@@ -13,6 +13,9 @@
             height: 100vh;
             background-color: #e6e8ee;
         }
+        input[type="file"] {
+            display: none; /* Esconde o botão padrão */
+        }
 
         .container {
             background-color: #ffffff;
