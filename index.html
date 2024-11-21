@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro de Usuario</h1>
+        <h1>Cadastro de Usuário</h1>
         <form action="/cadastrar" method="post">
             <div class="form-group">
                 <label for="nome">Nome</label>
@@ -22,6 +22,10 @@
             <div class="form-group">
                 <label for="senha">Senha</label>
                 <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="form-group">
+                <label for="file"><u>Selecione uma foto aqui</u></label>
+                <input type="file" id="file" name="file" accept="image/*" required>
             </div>
             <button type="submit" class="btn">Cadastrar</button>
         </form>
